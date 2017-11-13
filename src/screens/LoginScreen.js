@@ -21,21 +21,7 @@ export default class LoginScreen extends Component {
         password:'' ,
         waiting: false          
       }
-    }
-
-    componentDidMount() {
-      AsyncStorage.getItem('token', (err, result) => {
-        if(result != 'null'){ 
-
-          result = JSON.parse(result);
-
-          if( !result.error && result.access_token.length > 0 ){                    
-            // if logged -> redirecionar para tela interna
-            this.doLogin()
-          }
-        } 
-      }); 
-    } 
+    }    
     
     userLogin = () => {
       //alert('ok');
@@ -56,7 +42,7 @@ export default class LoginScreen extends Component {
         })
 
         // ip house 192.168.0.14
-        fetch("http://192.168.0.14:8000/v1/oauth/token", {
+        fetch("http://192.168.15.13:8000/v1/oauth/token", {
           method: "POST", 
           headers: { 
               'Accept': 'application/json',
@@ -83,7 +69,7 @@ export default class LoginScreen extends Component {
     }
 
     doLogin = () => { 
-      this.props.navigation.navigate('Home');
+      this.props.navigation.navigate('Dashboard');
     }
 
     returnRegister = () => {
@@ -117,7 +103,7 @@ export default class LoginScreen extends Component {
                 title="Submit"
                 onPress={this.userLogin}
                 borderRadius={25}
-                backgroundColor="#D90368"
+                backgroundColor="#00A6ED"
             />
           :
             <ActivityIndicator
@@ -130,7 +116,7 @@ export default class LoginScreen extends Component {
             { !this.state.waiting ? 
               <Button              
                 title="Register"
-                backgroundColor="#541388"
+                backgroundColor="#0D2C54"
                 onPress={this.returnRegister}
                 borderRadius={25}                            
               />

@@ -7,7 +7,8 @@ import {
     TextInput,
     View,
     Button,
-    StyleSheet
+    StyleSheet,
+    Image
 } from 'react-native';
 
 import { NavigationActions } from 'react-navigation';
@@ -23,6 +24,10 @@ export default class SplashScreen extends Component {
     render() {        
         return (
             <View style={styles.container}>
+                <Image
+                  source={require('../image/easybeer-logo4.png')} style={styles.stretch}
+                />
+
                 <Text style={styles.text}>
                     EASY BEER
                 </Text>
@@ -33,15 +38,19 @@ export default class SplashScreen extends Component {
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        backgroundColor: '#541388',
-        alignItems: 'center',
-        justifyContent: 'center' 
-
+      flex: 1,
+      backgroundColor: '#F6511D',
+      alignItems: 'center',
+      justifyContent: 'center' 
     },
     text: {
-        fontSize: 35,
-        color: '#FFF',
-        fontWeight: 'bold' 
+      fontSize: 35,
+      color: '#FFF',
+      fontWeight: 'bold' 
+    },
+    stretch: {
+      width: 120,
+      height: 120,
+      borderRadius: 15
     }
 })

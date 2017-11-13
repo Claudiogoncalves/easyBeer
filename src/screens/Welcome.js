@@ -9,7 +9,8 @@ import {
     ViewPagerAndroid,
     Image,
     Dimensions,
-    TouchableOpacity
+    TouchableOpacity,
+    AsyncStorage
 } from 'react-native';
 
 import { NavigationActions } from 'react-navigation';
@@ -25,7 +26,25 @@ export default class Welcome extends Component {
 
     userRegister = () => {
         this.props.navigation.navigate('Register');
-    }     
+    }    
+
+    componentDidMount() {
+      AsyncStorage.getItem('token', (err, result) => {
+        if(result != 'null'){ 
+
+          result = JSON.parse(result);
+
+          if( !result.error && result.access_token.length > 0 ){                    
+            // if logged -> redirecionar para tela interna
+            this.doLogin()
+          }
+        } 
+      }); 
+    }
+
+    doLogin = () => { 
+      this.props.navigation.navigate('Dashboard');
+    }  
 
     render() {        
         
@@ -51,7 +70,7 @@ export default class Welcome extends Component {
                         <View style={{margin:50}} />
                         <Button                     
                             title="Login" 
-                            backgroundColor="#000051"
+                            backgroundColor="#00A6ED"
                             onPress={this.returnLogin}
                             borderRadius={25}
                         /> 
@@ -60,7 +79,7 @@ export default class Welcome extends Component {
 
                         <Button              
                             title="Register"
-                            backgroundColor="#000051"
+                            backgroundColor="#0D2C54"
                             onPress={this.userRegister} 
                             borderRadius={25}                                               
                         />
@@ -95,13 +114,13 @@ const styles = StyleSheet.create({
 
     title: {
         fontSize: 35,
-        color: '#480EA3',
+        color: '#0D2C54',
         fontWeight: 'bold'                
     },
 
     titleP: {
         fontSize: 25,
-        color: '#480EA3',
+        color: '#0D2C54',
         fontWeight: 'bold' 
     }
 })

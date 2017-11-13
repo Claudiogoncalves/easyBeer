@@ -20,15 +20,47 @@ import { StackNavigator, tabNavigator, DrawerNavigator } from 'react-navigation'
 import LoginScreen from './src/screens/LoginScreen'
 import Register from  './src/screens/Register'
 import Home from './src/screens/Home'
+import HeaderHome from './src/screens/HomeScreen'
+
+import Dashboard from './src/screens/Dashboard'
 
 StatusBar.setBarStyle('light-content');
 
-const App = DrawerNavigator({
-  Splash: { screen: SplashScreen },
-  Welcome: { screen: Welcome },      
-  Login: { screen: LoginScreen },
-  Register: { screen: Register },
-  Home: { screen: Home },   
+const App = StackNavigator({
+  Splash: { 
+    screen: SplashScreen,
+    navigationOptions: { 
+      header: null 
+    }
+  },
+  Welcome: { 
+    screen: Welcome,
+    navigationOptions: { 
+      header: null 
+    } 
+  },      
+  Login: { screen: LoginScreen,
+    navigationOptions: { 
+      header: null 
+    }
+  },
+  Register: { screen: Register,
+    navigationOptions: { 
+      header: null 
+    }
+  },
+  Home: { screen: Home,
+    navigationOptions: { 
+      header: null 
+    }
+  },
+  Dashboard: { 
+    screen: Dashboard,
+    navigationOptions: { 
+      header: null 
+    }
+  },   
 });
 
 export default App;
+

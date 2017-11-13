@@ -42,7 +42,7 @@ export default class Register extends Component {
         this.setState({
           waiting:true
         })
-        fetch("http://192.168.1.243:8000/v1/oauth/token", {
+        fetch("http://192.168.15.13:8000/v1/oauth/token", {
           method: "POST", 
           headers: { 
               'Accept': 'application/json',
@@ -69,7 +69,7 @@ export default class Register extends Component {
     }
 
     doLogin = () => { 
-      this.props.navigation.navigate('Home');
+      this.props.navigation.navigate('Dashboard');
     }
 
     userRegister = () => {
@@ -93,7 +93,7 @@ export default class Register extends Component {
         }
 
         if(validated){
-            fetch("http://192.168.1.243:8000/v1/users", {
+            fetch("http://192.168.15.13:8000/v1/users", {
                 method: "POST", 
                 headers: { 
                     'Accept': 'application/json',
@@ -155,13 +155,13 @@ export default class Register extends Component {
                     title="Submit"
                     onPress={this.userRegister}
                     borderRadius={25}
-                    backgroundColor="#D90368"
+                    backgroundColor="#00A6ED"
                 /> 
                 <View style={{marginTop:20}} /> 
                 <Button              
                     title="Login"                    
                     onPress={this.returnLogin} 
-                    backgroundColor="#541388"                        
+                    backgroundColor="#0D2C54"                        
                     borderRadius={25}                           
                 />          
           

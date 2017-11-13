@@ -14,7 +14,13 @@ import {
 } from 'react-native';
 
 import { NavigationActions } from 'react-navigation';
-import { Button, SocialIcon } from 'react-native-elements';
+import { SocialIcon } from 'react-native-elements';
+import HeaderHome from '../component/HeaderHome'
+import FooterHome from '../component/FooterHome'
+import BoxHome from '../component/BoxHome'
+
+
+import { Container, Header, Content, Footer, FooterTab, Button, Icon } from 'native-base';
 
 let width = Dimensions.get('window').width;
 
@@ -25,66 +31,72 @@ export default class Home extends Component {
     }
 
     doLogout = () => { 
-        AsyncStorage.setItem('token', 'null', () => {                 
-          //alert('ok')
-          this.props.navigation.navigate('Login');
-          //alert('other')
-        });
-    }     
+      AsyncStorage.setItem('token', 'null', () => {                 
+        //alert('ok')
+        this.props.navigation.navigate('Welcome');
+        //alert('other')
+      });
+    } 
+
+    toggleMenu = () => {
+          this.props.navigation.navigate('DrawerOpen');
+        //if (this.props.navigation.state.index === 0) {
+          // check if drawer is not open, then only open it
+        //} else {
+          // else close the drawer
+          //this.props.navigation.navigate('DrawerClose');
+       // }
+    }  
+
+    static navigationOptions = {
+      drawerLabel: 'Home',
+      drawerIcon: ({ tintColor }) => (        
+        <Icon 
+          ios='ios-home' 
+          android="md-home" 
+          style={{fontSize: 24, color: '#F6511D'}}           
+          />
+      ), 
+    } 
 
     render() {        
         
-        return ( 
-            
-                <ScrollView style={{ flex:1 }} contentContainerStyle={styles.contentContainer}>
-                  <View style={styles.container}>
-                        <Text style={styles.title}>
-                            Bem vindo! 
-                        </Text>  
+      return (        
+        <Container>
+          <HeaderHome 
+            toggleMenu={this.toggleMenu}
+            title='Home'
+          />
 
-                        <Text style={styles.title}>
-                            Bora tomar uma! 
-                        </Text>  
-
-                        <View style={{marginBottom: 350}} />
-
-                        <Button                    
-                            title="Sair"
-                            onPress={ this.doLogout }
-                            borderRadius={25}
-                            backgroundColor="#480EA3"
-                        />                                             
-                    </View>                     
-                </ScrollView>
-                         
-        )
+          <BoxHome />
+              
+          <Footer>
+            <FooterTab style={styles.container}>
+              <Button badge vertical>              
+                <Icon name="apps" />
+                <Text>Apps</Text>
+              </Button>
+              <Button vertical>
+                <Icon name="camera" />
+                <Text>Camera</Text>
+              </Button>
+              <Button badge vertical>              
+                <Icon name="navigate" />
+                <Text>Navigate</Text>
+              </Button>
+              <Button vertical>
+                <Icon name="person" />
+                <Text>Contact</Text>
+              </Button>
+            </FooterTab>
+          </Footer>          
+        </Container>                       
+      )
     }
 }
 
 const styles = StyleSheet.create({
-    contentContainer: {
-        flex: 1,
-        backgroundColor: '#D90368'
-    },
-
     container: {
-        paddingTop: 150,
-        padding: 20,
-    },
-
-    button: {
-        marginBottom: 0,
-    },
-
-    title: {
-        fontSize: 35,
-        color: '#FFF',
-        fontWeight: 'bold'                
-    },
-
-    titleP: {
-        fontSize: 25,
-        color: '#480EA3',
-        fontWeight: 'bold' 
-    }
+      backgroundColor: '#F6511D'
+    }    
 })
