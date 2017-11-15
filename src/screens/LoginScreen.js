@@ -42,7 +42,7 @@ export default class LoginScreen extends Component {
         })
 
         // ip house 192.168.0.14
-        fetch("http://192.168.15.13:8000/v1/oauth/token", {
+        fetch("http://192.168.0.14:8000/v1/oauth/token", {
           method: "POST", 
           headers: { 
               'Accept': 'application/json',

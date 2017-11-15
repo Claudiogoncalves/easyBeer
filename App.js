@@ -23,6 +23,7 @@ import Home from './src/screens/Home'
 import HeaderHome from './src/screens/HomeScreen'
 
 import Dashboard from './src/screens/Dashboard'
+import ListProd from './src/screens/ListProd'
 
 StatusBar.setBarStyle('light-content');
 
@@ -59,7 +60,7 @@ const App = StackNavigator({
     navigationOptions: { 
       header: null 
     }
-  },   
+  }    
 });
 
 export default App;

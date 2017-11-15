@@ -11,22 +11,19 @@ import {
 
 class HeaderHome extends Component {  
   render() {
-    return (
-      <Container>
-        <Header style={styles.container}>
-          <Left>
-            <Button transparent
-            onPress={this.props.toggleMenu}
-            >
-              <Icon name='menu' />
-            </Button>
-          </Left>          
-          <Body>
-            <Title>{this.props.title}</Title>
-          </Body>
-          
-        </Header>
-      </Container>
+    return (      
+      <Header style={styles.container}>
+        <Left>
+          <Button transparent
+          onPress={this.props.toggleMenu}
+          >
+            <Icon name='menu' />
+          </Button>
+        </Left>          
+        <Body>
+          <Title>{this.props.title}</Title>
+        </Body>          
+      </Header>      
     );
   }
 }

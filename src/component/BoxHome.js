@@ -27,7 +27,7 @@ class BoxHome extends Component {
               </Left>
             </CardItem>
             <CardItem cardBody>
-              <Image source={require('./vegas.jpg')} style={{height: 200, width: 100, flex: 1}}/>
+              <Image source={require('./vegas.jpg')} style={{height: 200, width: 200, flex: 1}}/>
             </CardItem>
             <CardItem>
               <Left>
@@ -48,8 +48,7 @@ class BoxHome extends Component {
             </CardItem>
           </Card>
         </Content>
-      </Container>
-     
+      </Container>     
     );
   }
 }
