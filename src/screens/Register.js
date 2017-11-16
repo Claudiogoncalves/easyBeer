@@ -42,7 +42,7 @@ export default class Register extends Component {
         this.setState({
           waiting:true
         })
-        fetch("http://192.168.15.7:8000/v1/oauth/token", {
+        fetch("http://192.168.0.14:8000/v1/oauth/token", {
           method: "POST", 
           headers: { 
               'Accept': 'application/json',
@@ -93,7 +93,7 @@ export default class Register extends Component {
         }
 
         if(validated){
-            fetch("http://192.168.15.7:8000/v1/users", {
+            fetch("http://192.168.0.14:8000/v1/users", {
                 method: "POST", 
                 headers: { 
                     'Accept': 'application/json',

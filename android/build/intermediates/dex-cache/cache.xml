@@ -12,6 +12,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_7b7543244186c11aa539678d8db255349bdb0124.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_055e918a4748e399675b9dc9d8ce4f6a3b85b3a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,15 +66,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_27e554e810e2cadf4f377b194612b56f9ec066fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -66,12 +75,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_b1dfecffb3da124edddd8940c02268974e30613e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_3f8b81604060fdee9066aacaf6520458c4f663f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_bd9c67a0e5401ba7e4593846d13e885df35b5b4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_257fa0e0203d89e0db8284f76b290f70b593ad6e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,21 +147,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_749e6718db2dd46979d5636cde5ae0d3679f2721.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_2fccaa37a9092fae1b046233d3bde80306d4fdba.jar" />
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_ec031cc0ed4e1b68c21bc431b2559f1c0094b166.jar" />
     </item>
     <item
         is-multidex="false"
@@ -153,6 +180,15 @@
         revision="23.0.1"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
         <dex dex="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_644fcb065893a931b9f7e9ceef9843180b0227ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_d50a09e7596640f55c92fddfafc7d6198e1e36c8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -192,6 +228,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_6f29ebb24c9a2382b135169639115ff663720268.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -210,12 +255,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/customtabs/25.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_6efc31b43e321acd5c3d690f8fa3966269bba62a.jar" />
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-customtabs-25.0.0_67c99a81cad13f500ef4bdf6708991c1d7fa02ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_71ee9401526f4318afd3c5007519e04933030aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_91dbb5053a1d7c4361681de24f1def699c28d61b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -225,6 +288,24 @@
         revision="23.0.1"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
         <dex dex="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_f0920a949eb1e4ba54a4129a8bb0710e3c1056dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_fade41ed24602f6c623bc6540c78f1d00b8b7d8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_71f7d6c36952d39a2bd013be188727c566918d14.jar" />
     </item>
     <item
         is-multidex="false"
@@ -264,6 +345,42 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d5cbc9214ee567ea6ef56fb2707d48e58d240fc2">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.facebook.android-facebook-android-sdk-4.22.1_8c3ea24b2632fe7272c17f645f9c5f9704c84382.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/appBeer/react-native-fbsdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="83788656cb0308d4b1362988f4276c29432d73a2">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/appBeer-react-native-fbsdk-unspecified_85c9ea45c974c7c24a169bb573cd872d37e8e37c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_46c4b90fee44138005b73be7cc4ddd031a0b0c1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_4089fba16196e09a38abd99b5a5f3c7d257cba7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -300,15 +417,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_a0c0d74341f93af6056084bee2c283c435744699.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -324,6 +432,24 @@
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
         <dex dex="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_df95755073a7de006b7a57762e07764cda5f679f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_192b68343d5b82e098f6ae4c89140b99534f329e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.0_5cecd769ad88c29112d1babdab83fef8747ca144.jar" />
     </item>
     <item
         is-multidex="false"
@@ -360,6 +486,15 @@
         revision="23.0.1"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
         <dex dex="/home/claudio/App/react-native/appBeer/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_0afa9996b9ba238fe255150aa34726f28f29ea77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_f6721a6defc8da63ec2b192881ef77b1affc319e.jar" />
     </item>
     <item
         is-multidex="false"

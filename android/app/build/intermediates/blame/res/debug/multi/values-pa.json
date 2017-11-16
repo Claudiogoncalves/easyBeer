@@ -7,17 +7,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 121,
-                    "endOffset": 172
+                    "endColumn": 144,
+                    "endOffset": 195
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 161,
-                        "endColumn": 121,
-                        "endOffset": 278
+                        "startOffset": 55,
+                        "endColumn": 144,
+                        "endOffset": 195
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 177,
-                    "endColumn": 122,
-                    "endOffset": 295
+                    "startOffset": 200,
+                    "endColumn": 121,
+                    "endOffset": 317
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 283,
-                        "endColumn": 122,
-                        "endOffset": 401
+                        "startOffset": 200,
+                        "endColumn": 121,
+                        "endOffset": 317
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 300,
-                    "endColumn": 95,
-                    "endOffset": 391
+                    "startOffset": 322,
+                    "endColumn": 122,
+                    "endOffset": 440
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 406,
-                        "endColumn": 95,
-                        "endOffset": 497
+                        "startOffset": 322,
+                        "endColumn": 122,
+                        "endOffset": 440
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 396,
-                    "endColumn": 72,
-                    "endOffset": 464
+                    "startOffset": 445,
+                    "endColumn": 95,
+                    "endOffset": 536
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 502,
-                        "endColumn": 72,
-                        "endOffset": 570
+                        "startOffset": 445,
+                        "endColumn": 95,
+                        "endOffset": 536
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 469,
-                    "endColumn": 71,
-                    "endOffset": 536
+                    "startOffset": 541,
+                    "endColumn": 72,
+                    "endOffset": 609
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 575,
-                        "endColumn": 71,
-                        "endOffset": 642
+                        "startOffset": 541,
+                        "endColumn": 72,
+                        "endOffset": 609
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 541,
-                    "endColumn": 66,
-                    "endOffset": 603
+                    "startOffset": 614,
+                    "endColumn": 71,
+                    "endOffset": 681
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 647,
-                        "endColumn": 66,
-                        "endOffset": 709
+                        "startOffset": 614,
+                        "endColumn": 71,
+                        "endOffset": 681
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 608,
-                    "endColumn": 72,
-                    "endOffset": 676
+                    "startOffset": 686,
+                    "endColumn": 64,
+                    "endOffset": 746
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 714,
-                        "endColumn": 72,
-                        "endOffset": 782
+                        "startOffset": 686,
+                        "endColumn": 64,
+                        "endOffset": 746
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 681,
-                    "endColumn": 75,
-                    "endOffset": 752
+                    "startOffset": 751,
+                    "endColumn": 72,
+                    "endOffset": 819
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 787,
-                        "endColumn": 75,
-                        "endOffset": 858
+                        "startOffset": 751,
+                        "endColumn": 72,
+                        "endOffset": 819
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 757,
-                    "endColumn": 96,
-                    "endOffset": 849
+                    "startOffset": 824,
+                    "endColumn": 75,
+                    "endOffset": 895
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 863,
-                        "endColumn": 96,
-                        "endOffset": 955
+                        "startOffset": 824,
+                        "endColumn": 75,
+                        "endOffset": 895
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 854,
-                    "endColumn": 77,
-                    "endOffset": 927
+                    "startOffset": 900,
+                    "endColumn": 99,
+                    "endOffset": 995
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 960,
-                        "endColumn": 77,
-                        "endOffset": 1033
+                        "startOffset": 900,
+                        "endColumn": 99,
+                        "endOffset": 995
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 932,
-                    "endColumn": 77,
-                    "endOffset": 1005
+                    "startOffset": 1000,
+                    "endColumn": 96,
+                    "endOffset": 1092
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1038,
-                        "endColumn": 77,
-                        "endOffset": 1111
+                        "startOffset": 1000,
+                        "endColumn": 96,
+                        "endOffset": 1092
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1010,
-                    "endColumn": 94,
-                    "endOffset": 1100
+                    "startOffset": 1097,
+                    "endColumn": 77,
+                    "endOffset": 1170
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1116,
-                        "endColumn": 94,
-                        "endOffset": 1206
+                        "startOffset": 1097,
+                        "endColumn": 77,
+                        "endOffset": 1170
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1105,
-                    "endColumn": 114,
-                    "endOffset": 1215
+                    "startOffset": 1175,
+                    "endColumn": 77,
+                    "endOffset": 1248
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1211,
-                        "endColumn": 114,
-                        "endOffset": 1321
+                        "startOffset": 1175,
+                        "endColumn": 77,
+                        "endOffset": 1248
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1220,
-                    "endColumn": 62,
-                    "endOffset": 1278
+                    "startOffset": 1253,
+                    "endColumn": 94,
+                    "endOffset": 1343
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1326,
-                        "endColumn": 62,
-                        "endOffset": 1384
+                        "startOffset": 1253,
+                        "endColumn": 94,
+                        "endOffset": 1343
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1283,
-                    "endColumn": 68,
-                    "endOffset": 1347
+                    "startOffset": 1348,
+                    "endColumn": 114,
+                    "endOffset": 1458
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1389,
-                        "endColumn": 68,
-                        "endOffset": 1453
+                        "startOffset": 1348,
+                        "endColumn": 114,
+                        "endOffset": 1458
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1352,
-                    "endColumn": 146,
-                    "endOffset": 1494
+                    "startOffset": 1463,
+                    "endColumn": 62,
+                    "endOffset": 1521
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1458,
-                        "endColumn": 146,
-                        "endOffset": 1600
+                        "startOffset": 1463,
+                        "endColumn": 62,
+                        "endOffset": 1521
                     }
                 }
             },
@@ -310,18 +310,132 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1499,
-                    "endColumn": 59,
-                    "endOffset": 1554
+                    "startOffset": 1526,
+                    "endColumn": 68,
+                    "endOffset": 1590
                 },
                 "from": {
-                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.7.0/res/values-pa/values-pa.xml",
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1526,
+                        "endColumn": 68,
+                        "endOffset": 1590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1595,
+                    "endColumn": 164,
+                    "endOffset": 1755
+                },
+                "from": {
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1595,
+                        "endColumn": 164,
+                        "endOffset": 1755
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1760,
+                    "endColumn": 77,
+                    "endOffset": 1833
+                },
+                "from": {
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1760,
+                        "endColumn": 77,
+                        "endOffset": 1833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1838,
+                    "endColumn": 90,
+                    "endOffset": 1924
+                },
+                "from": {
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1838,
+                        "endColumn": 90,
+                        "endOffset": 1924
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1929,
+                    "endColumn": 91,
+                    "endOffset": 2016
+                },
+                "from": {
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1728,
+                        "startOffset": 1929,
+                        "endColumn": 91,
+                        "endOffset": 2016
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2021,
+                    "endColumn": 140,
+                    "endOffset": 2157
+                },
+                "from": {
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2021,
+                        "endColumn": 140,
+                        "endOffset": 2157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2162,
+                    "endColumn": 59,
+                    "endOffset": 2217
+                },
+                "from": {
+                    "file": "/home/claudio/App/react-native/easyBeer/android/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.22.1/res/values-pa/values-pa.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 2162,
                         "endColumn": 59,
-                        "endOffset": 1783
+                        "endOffset": 2217
                     }
                 }
             }

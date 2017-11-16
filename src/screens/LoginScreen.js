@@ -21,7 +21,7 @@ export default class LoginScreen extends Component {
         password:'' ,
         waiting: false          
       }
-    }    
+    }  
     
     userLogin = () => {
       //alert('ok');
@@ -42,7 +42,7 @@ export default class LoginScreen extends Component {
         })
 
         // ip house 192.168.0.14
-        fetch("http://192.168.15.7:8000/v1/oauth/token", {
+        fetch("http://192.168.0.14:8000/v1/oauth/token", {
           method: "POST", 
           headers: { 
               'Accept': 'application/json',
@@ -112,6 +112,7 @@ export default class LoginScreen extends Component {
               size="large"
             /> 
           }
+ 
           <View style={{marginTop:20}} />
             { !this.state.waiting ? 
               <Button              
