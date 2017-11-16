@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react';
 
 import {
@@ -7,12 +5,29 @@ import {
   View,
 } from 'react-native';
 
-import { Container, Header, Content, List, ListItem, Thumbnail, Text, Body, Right } from 'native-base';
+import { NavigationActions, DrawerNavigator, StackNavigator } from 'react-navigation';
+import { Container, Icon, Header, Content, List, ListItem, Thumbnail, Text, Body, Right } from 'native-base';
+import HeaderHome from '../component/HeaderHome'
+import { Button, SocialIcon } from 'react-native-elements'
 
 class ListProd extends Component {
+
+  toggleMenu = () => {
+    this.props.navigation.navigate('DrawerOpen');    
+  } 
+
+  return = () => {
+    this.props.navigation.navigate('Home');
+  } 
+
   
   render() {
     return (
+      <Container>
+      <HeaderHome 
+        toggleMenu={this.toggleMenu}
+        title='Zé das bebidas'
+      />
       <List>
         <ListItem last>
           <Thumbnail square size={80} source={require('./gas.jpg')} />
@@ -42,6 +57,15 @@ class ListProd extends Component {
           </Right>
         </ListItem>
       </List>
+      <View style={{marginTop:20}} />
+      <Button                   
+        title="Voltar"        
+        borderRadius={25}
+        backgroundColor="#00A6ED"
+        onPress={this.return}
+      /> 
+
+      </Container> 
     );
   }
 }

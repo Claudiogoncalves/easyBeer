@@ -20,19 +20,18 @@ export default class SplashScreen extends Component {
           this.props.navigation.navigate('Welcome')  
         }, 3000)       
     } 
-
     render() {        
-        return (
-            <View style={styles.container}>
-                <Image
-                  source={require('../image/easybeer-logo4.png')} style={styles.stretch}
-                />
+      return (
+        <View style={styles.container}>
+            <Image
+              source={require('../image/easybeer-logo4.png')} style={styles.stretch}
+            />
 
-                <Text style={styles.text}>
-                    EASY BEER
-                </Text>
-            </View>
-        )
+            <Text style={styles.text}>
+                EASY BEER
+            </Text>
+        </View>
+      )
     }
 }
 

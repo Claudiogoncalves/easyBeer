@@ -24,6 +24,7 @@ import HeaderHome from './src/screens/HomeScreen'
 
 import Dashboard from './src/screens/Dashboard'
 import ListProd from './src/screens/ListProd'
+import ListCompany from './src/screens/ListCompany'
 
 StatusBar.setBarStyle('light-content');
 
@@ -51,6 +52,16 @@ const App = StackNavigator({
     }
   },
   Home: { screen: Home,
+    navigationOptions: { 
+      header: null 
+    }
+  },
+  ListProd: { screen: ListProd,
+    navigationOptions: { 
+      header: null 
+    }
+  },
+  ListCompany: { screen: ListCompany,
     navigationOptions: { 
       header: null 
     }

@@ -5,29 +5,22 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   View,
-  AsyncStorage
+  AsyncStorage,
+  Button
 } from 'react-native';
 
 import { Container, Header, Content, List, ListItem, Thumbnail, Text, Body, Right } from 'native-base';
 import { NavigationActions, StackNavigator } from 'react-navigation'
 
 class ListCompany extends Component {  
-
-  constructor(props) {
-    super(props);    
-  }
-  
-  returnRegister = () => {
-    this.props.navigation.navigate('ListProd');
-  } 
-  
+ 
   render() {
     return (
       <List>
-        <ListItem last onPress={this.returnRegister}>
+        <ListItem last onPress={this.props.listProd}>
           <Thumbnail square size={80} source={require('./dist1.jpg')} />
           <Body>
-            <Text>Água Mineral</Text>            
+            <Text>Ze das bebidas</Text>            
           </Body>
           <Right>
             <Text note>comprar</Text>
@@ -36,7 +29,7 @@ class ListCompany extends Component {
         <ListItem last>
           <Thumbnail square size={80} source={require('./dist2.png')} />
           <Body>
-            <Text>Gás</Text>            
+            <Text>Tiao bebidas</Text>            
           </Body>
           <Right>
             <Text note>comprar</Text>
@@ -45,13 +38,13 @@ class ListCompany extends Component {
         <ListItem last>
           <Thumbnail square size={80} source={require('./dist3.jpg')} />
           <Body>
-            <Text>Cerveja</Text>            
+            <Text>Manel das bebidas</Text>            
           </Body>
           <Right>
             <Text note>comprar</Text>
           </Right>
-        </ListItem>
-      </List>
+        </ListItem>        
+      </List>      
     );
   }
 }

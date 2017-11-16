@@ -47,7 +47,11 @@ export default class Home extends Component {
       // else close the drawer
       //this.props.navigation.navigate('DrawerClose');
    // }
-  }  
+  } 
+
+  listProd = () => {
+    this.props.navigation.navigate('ListProd');
+  } 
 
   static navigationOptions = {
     drawerLabel: 'Home',
@@ -69,7 +73,9 @@ export default class Home extends Component {
         />
 
         <Content>           
-          <ListCompany />
+          <ListCompany 
+            listProd={this.listProd}
+          />
         </Content>
 
         <FooterHome />

@@ -20,6 +20,7 @@ import LoginScreen from './LoginScreen'
 import Perfil from './Perfil'
 import Settings from './Settings'
 import Logout from './Logout'
+import ListProd from './ListProd'
 
 StatusBar.setBarStyle('light-content');
 
@@ -40,6 +41,11 @@ const Dashboard = DrawerNavigator({
     }
   },   
   Logout: { screen: Logout,
+    navigationOptions: { 
+      header: null
+    }
+  },
+  ListProd: { screen: ListProd,
     navigationOptions: { 
       header: null
     }
